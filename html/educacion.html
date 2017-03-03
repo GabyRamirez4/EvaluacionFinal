@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="300" height="100">
+        <image width="300px" height="400px" xlink:href="../Imagenes/logo.svg"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Gabriela Elizabeth Ramírez López</h2>
+      <h3>01 de Febrero, Tegucigalpa, Honduras</h3>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </header>
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th><strong>Año</strong></th>
+          <th><strong>Institución</strong></th>
+          <th><strong>Lugar</strong></th>
+          <th><strong>¿Culminó?</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2000</td>
+          <td>Escuela Evangélica Luz Y Verdad</td>
+          <td>Tegucigalpa, Honduras</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <td>Instituto Católico Emiliani</td>
+          <td>Tegucigalpa, Honduras</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>Universidad Tecnológica de Honduras</td>
+          <td>Tegucigalpa, Honduras</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Agregar Estudios</h3>
+    <form autocomplete="on">
+      <p>
+        <label for="Anio"><strong>Año:</strong></label>
+        <select>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+          <option>2010</option>
+          <option>2009</option>
+          <option>2008</option>
+          <option>2007</option>
+          <option>2006</option>
+          <option>2005</option>
+          <option>2004</option>
+          <option>2003</option>
+          <option>2002</option>
+          <option>2001</option>
+          <option>2000</option>
+        </select>
+      </p>
+        <p>
+        <label for="Institucion"><strong>Institución:</strong></label>
+        <input type="text" name="institucion" required="Campo requerido">
+      </p>
+        <p>
+        <label for="Lugarn"><strong>Lugar:</strong></label>
+        <input type="text" name="lugarn" >
+      </p>
+        <p>
+        <label for="culmino"><strong>¿Culminó?</strong></label>
+        <input type="radio" name="culmino_si">Sí
+        <input type="radio" name="culmino_no">No
+      </p>
+      <p>
+        <input type="submit" name="enviar" value="Enviar">
+      </p>
+    </form>
+    <tfoot>
+      <p>@Derechos Reservados</p>
+      <ul>
+        <li><strong>Correo Eléctronico:</strong>gabyramirez4@outlook.com</li>
+        <li><strong>Télefono:</strong>00 (504) 3392-4905</li>
+        <li><strong>Dirección:</strong>Col. Mayangle, Bloque I, Casa #1618, Tegucigalpa, Honduras</li>
+      </ul>
+    </tfoot>
+  </body>
+</html>
